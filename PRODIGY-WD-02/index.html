@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Application</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+    <div class="stopwatch-container">
+        <h1>Stopwatch</h1>
+
+        <!-- Display time -->
+        <div id="timeDisplay" class="time-display">00:00:00</div>
+
+        <!-- Buttons to control the stopwatch -->
+        <div class="controls">
+            <button id="startStopBtn" onclick="startStop()">Start</button>
+            <button id="resetBtn" onclick="reset()">Reset</button>
+            <button id="lapBtn" onclick="recordLap()">Lap</button>
+        </div>
+
+        <!-- Display lap times -->
+        <div id="laps" class="laps">
+            <h2>Lap Times</h2>
+            <ul id="lapList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

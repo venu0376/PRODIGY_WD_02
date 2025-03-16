@@ -1,0 +1,68 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Stopwatch container styling */
+.stopwatch-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Time display style */
+.time-display {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Button styles */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Styling for lap times */
+.laps {
+    margin-top: 30px;
+}
+
+.laps ul {
+    list-style: none;
+}
+
+.laps li {
+    font-size: 16px;
+    margin: 5px 0;
+}
